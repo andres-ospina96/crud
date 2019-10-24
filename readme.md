@@ -1,7 +1,6 @@
-<p 1- Recuperar base de datos que esta en MySQL con el archivo copia.sql>
+<p> 1- Recuperar base de datos que esta en MySQL con el archivo copia.sql
 </p>
-<p 2- Datos login: User: admin@admin.com password: password>
-</p>
+<p> 2- Datos login: User: admin@admin.com password: password </p>
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
