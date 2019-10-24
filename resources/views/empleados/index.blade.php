@@ -22,8 +22,8 @@
     <thead class="thead-light">
         <tr>
             <th>#</th>
-            <th>Primer Nombre</th>
-            <th>Segundo Nombre</th>
+            <th>Nombres</th>
+            <th>Apellidos</th>
             <th>Empresa</th>
             <th>Email</th>
             <th>Telefono</th>
