@@ -1,14 +1,14 @@
 {{ $Mode=='crear' ? 'Agregar empleado':'Modificar empleado'}}
 
 <div class="form-group">
-<label for="PrimerNombre" class="control-label ">{{'PrimerNombre'}}</label>
+<label for="PrimerNombre" class="control-label ">{{'Nombres'}}</label>
 <input type="text"  class="form-control {{$errors->has('PrimerNombre')?'is-invalid':''}}"    
 name="PrimerNombre" id="PrimerNombre" value="{{ isset($empleado->PrimerNombre)?$empleado->PrimerNombre:old('PrimerNombre')}}">
 
 </div>
 
 <div class="form-group">
-    <label for="SegundoNombre" class="control-label ">{{'SegundoNombre'}}</label>
+    <label for="SegundoNombre" class="control-label ">{{'Apellidos'}}</label>
     <input type="text"  class="form-control {{$errors->has('SegundoNombre')?'is-invalid':''}}"    
     name="SegundoNombre" id="SegundoNombre" value="{{ isset($empleado->SegundoNombre)?$empleado->SegundoNombre:old('SegundoNombre')}}">
     
